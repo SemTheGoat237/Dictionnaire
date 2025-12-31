@@ -2,6 +2,5 @@ services:
   - type: web
     name: dictionnaire-levraigabin
     env: static
-    buildCommand: ""        # pas de build, juste du HTML
-    staticPublishPath: .    # le dossier où se trouve index.html
-    plan: free              # utilise le plan gratuit
+    buildCommand: ""
+    staticPublishPath: .
